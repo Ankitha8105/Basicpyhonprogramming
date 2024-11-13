@@ -21,7 +21,7 @@ def fact_num(num):
     print(n1,end= ' ')
     print(n2,end = ' ')
  
-    for i in range(3,num):
+    for i in range(1,num):
         n3 = n1 + n2
         n1 = n2
         n2 = n3
