@@ -18,9 +18,7 @@ def swap(a,b):
     """
      
     print("Before Swapping ",a,b)
-    t = a
-    a = b
-    b = t
+    a,b = b,a
 
     '''a = a+b
         b=a-b
